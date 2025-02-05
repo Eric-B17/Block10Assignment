@@ -10,4 +10,3 @@ const halveValue =  x => x / 2;
 
 const processNumber2 = pipe(squareValue, halveValue);
 console.log(processNumber2(3));
-//
